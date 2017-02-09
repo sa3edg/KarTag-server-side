@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/kartag/!svn/ver/19/head/server/KarTagServer/src/java/com/kartag/common/dao
+END
+HQLQueryGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/kartag/!svn/ver/19/head/server/KarTagServer/src/java/com/kartag/common/dao/HQLQueryGenerator.java
+END
+IDefaultDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/kartag/!svn/ver/33/head/server/KarTagServer/src/java/com/kartag/common/dao/IDefaultDao.java
+END
+SQLQueryGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/kartag/!svn/ver/19/head/server/KarTagServer/src/java/com/kartag/common/dao/SQLQueryGenerator.java
+END
+DaoFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/kartag/!svn/ver/33/head/server/KarTagServer/src/java/com/kartag/common/dao/DaoFactory.java
+END
+PersistenceSessionFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/kartag/!svn/ver/33/head/server/KarTagServer/src/java/com/kartag/common/dao/PersistenceSessionFactory.java
+END
+BaseDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/kartag/!svn/ver/33/head/server/KarTagServer/src/java/com/kartag/common/dao/BaseDao.java
+END

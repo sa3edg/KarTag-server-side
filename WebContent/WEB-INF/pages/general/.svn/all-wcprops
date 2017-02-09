@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/kartag/!svn/ver/21/head/server/KarTagServer/WebContent/WEB-INF/pages/general
+END
+error.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/kartag/!svn/ver/36/head/server/KarTagServer/WebContent/WEB-INF/pages/general/error.jsp
+END
+home.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/kartag/!svn/ver/30/head/server/KarTagServer/WebContent/WEB-INF/pages/general/home.jsp
+END
+loginError.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/kartag/!svn/ver/36/head/server/KarTagServer/WebContent/WEB-INF/pages/general/loginError.jsp
+END
+StandardFrame.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/kartag/!svn/ver/21/head/server/KarTagServer/WebContent/WEB-INF/pages/general/StandardFrame.jsp
+END

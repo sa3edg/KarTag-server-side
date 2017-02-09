@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<!--mysql configuration in local machine-->
+	    <!--  <property name="connection.url">jdbc:mysql://localhost/KARTAG?autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=UTF-8&amp;connectionCollation=utf8_general_ci&amp;characterSetResult=utf8</property>
+		<property name="connection.username">root</property>
+		<property name="connection.password">root</property>
+		<property name="connection.driver_class">org.gjt.mm.mysql.Driver</property>
+		<property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+		<property name="hibernate.bytecode.use_reflection_optimizer">false</property>
+		<property name="show_sql">true</property>
+		<property name="format_sql">true</property>
+		<property name="use_sql_comments">false</property>
+		
+		<property name="connection.provider_class">org.hibernate.connection.C3P0ConnectionProvider</property>
+    	<property name="c3p0.idle_test_period">14400</property>
+		<property name="c3p0.preferredTestQuery">select 1;</property>
+		<property name="hibernate.c3p0.min_size">1</property>
+  		<property name="hibernate.c3p0.max_size">100</property>
+  		<property name="hibernate.c3p0.timeout">300</property>
+  		<property name="hibernate.c3p0.max_statements">50</property>
+  		
+		<property name="connection.pool_size">10</property>
+
+		<property name="cache.provider_class">org.hibernate.cache.NoCacheProvider</property>
+        -->
+        
+        <!--mysql configuration in production environment-->
+        
+		<property name="connection.url">jdbc:mysql://localhost:3306/kartag_KARTAG?autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=UTF-8&amp;connectionCollation=utf8_general_ci&amp;characterSetResult=utf8</property>
+		<property name="connection.username">kartag_root</property>
+		<property name="connection.password">kartag@sa3eed_</property>
+		<property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>
+		<property name="hibernate.bytecode.use_reflection_optimizer">false</property>
+		<property name="show_sql">false</property>
+		<property name="format_sql">false</property>
+		<property name="use_sql_comments">false</property>
+		
+		<property name="connection.provider_class">org.hibernate.connection.C3P0ConnectionProvider</property>
+    	<property name="c3p0.idle_test_period">14400</property>
+		<property name="c3p0.preferredTestQuery">select 1;</property>
+		
+		<property name="hibernate.c3p0.min_size">1</property>
+  		<property name="hibernate.c3p0.max_size">100</property>
+  		<property name="hibernate.c3p0.timeout">300</property>
+  		<property name="hibernate.c3p0.max_statements">50</property>
+  		
+		<property name="connection.pool_size">10</property>
+
+		<property name="cache.provider_class">org.hibernate.cache.NoCacheProvider</property>
+	    
+		
+		<!--Entities mapping-->
+        <mapping class="com.kartag.server.model.Country" />
+        <mapping class="com.kartag.server.model.Pool" />
+        <mapping class="com.kartag.server.model.Trip" />
+        <mapping class="com.kartag.server.model.UserTrip" />
+        <mapping class="com.kartag.server.model.TripPool" />
+		<mapping class="com.kartag.server.model.User" />
+		<mapping class="com.kartag.server.model.Feedback" />
+		<mapping class="com.kartag.server.model.Message" />
+		<mapping class="com.kartag.server.model.Notification" />
+		<mapping class="com.kartag.server.model.Reply" />
+		<mapping class="com.kartag.server.model.Community" />
+		<mapping class="com.kartag.server.model.UserUpdates" />
+		<mapping class="com.kartag.server.model.Location" />
+		<mapping class="com.kartag.server.model.UserRole" />
+		<mapping class="com.kartag.server.model.SystemUser" />
+		<mapping class="com.kartag.server.model.UserChannel" />
+	</session-factory>
+</hibernate-configuration>

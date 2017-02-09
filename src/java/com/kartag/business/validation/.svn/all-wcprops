@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/kartag/!svn/ver/19/head/server/KarTagServer/src/java/com/kartag/business/validation
+END
+IOrderValidator.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/kartag/!svn/ver/19/head/server/KarTagServer/src/java/com/kartag/business/validation/IOrderValidator.java
+END
+IAuthenticator.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/kartag/!svn/ver/19/head/server/KarTagServer/src/java/com/kartag/business/validation/IAuthenticator.java
+END

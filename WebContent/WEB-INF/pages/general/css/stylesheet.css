@@ -1,0 +1,93 @@
+#phase2Container td.leftalign {text-align:left;}
+#phase2Container table.simple { border:0px solid grey; padding:0px; margin:0px;}
+
+#phase2Container .txtBoldTop {font-weight: bold; vertical-align:top;}
+
+#phase2Container .errorStyle {border-width:medium; border-color:#FF0000; border-style:double; padding:5px; font-size: 10px; color: black; font-family: verdana, helvetica, arial, sans-serif; font-weight: normal;}
+
+#phase2Container input.error {  border: red 3px solid; }
+
+#phase2Container .tabText {
+  background-color:#EAEAEA;
+  text-align=left; 
+  font-size: 10px; 
+  color: black; 
+  font-family: verdana, helvetica, arial; 
+  font-weight: normal;
+  padding-left: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+#phase2Container .tabRadio {
+  background-color:#EAEAEA;
+  text-align=center; 
+  font-size: 10px; 
+  color: black; 
+  font-family: verdana, helvetica, arial; 
+  font-weight: normal;
+}
+#phase2Container .tabHead {
+  background-color:#FF0000; 
+  text-align=left; 
+  font-size: 10px; 
+  color: #FFFFFF; 
+  font-family: verdana, helvetica, arial; 
+  font-weight: bold;
+  padding-left: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+#phase2Container .tabHeadCenter {
+  background-color:#FF0000; 
+  text-align=center; 
+  font-size: 10px; 
+  color: #FFFFFF; 
+  font-family: verdana, helvetica, arial; 
+  font-weight: bold;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+#phase2Container .pageNav {
+  font-size: 10px; 
+  color: black; 
+  font-family: verdana, helvetica, arial; 
+  font-weight: normal;
+}
+#phase2Container .pageDesc {
+  font-size: 10px; 
+  color: black; 
+  font-family: verdana, helvetica, arial; 
+  font-weight: bold;
+}
+#phase2Container .sb_red {
+  background-color:#ff0000;
+}
+#phase2Container .sb_grey_txt_grey {
+  font-size: 10px; 
+  color: #666666; 
+  font-family: verdana, helvetica, arial; 
+  font-weight: normal;
+  background-color:#EAEAEA;
+  padding:2px;
+}
+#phase2Container .sb_grey_padding {
+  background-color:#EAEAEA;
+  padding:2px;
+}
+#phase2Container .sb_lightgrey {
+  background-color:#F5F5F5;
+}
+#phase2Container .sb_lightgrey_txt_grey {
+  font-size: 10px; 
+  color: #666666; 
+  font-family: verdana, helvetica, arial; 
+  font-weight: normal;
+  background-color:#F5F5F5;
+}
+#phase2Container .sb_padding {
+  background-color:#EAEAEA;
+  padding:4px;
+}
+#phase2Container .sb_grey {
+  background-color:#EAEAEA;
+}

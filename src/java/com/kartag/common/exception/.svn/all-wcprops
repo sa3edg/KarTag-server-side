@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/kartag/!svn/ver/19/head/server/KarTagServer/src/java/com/kartag/common/exception
+END
+BadRuntimeException.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/kartag/!svn/ver/47/head/server/KarTagServer/src/java/com/kartag/common/exception/BadRuntimeException.java
+END

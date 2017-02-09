@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/kartag/!svn/ver/19/head/server/KarTagServer/src/java/com/kartag/server/model
+END
+UserTrip.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/kartag/!svn/ver/21/head/server/KarTagServer/src/java/com/kartag/server/model/UserTrip.java
+END
+Notification.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/kartag/!svn/ver/27/head/server/KarTagServer/src/java/com/kartag/server/model/Notification.java
+END
+User.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/kartag/!svn/ver/47/head/server/KarTagServer/src/java/com/kartag/server/model/User.java
+END
+Reply.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/kartag/!svn/ver/19/head/server/KarTagServer/src/java/com/kartag/server/model/Reply.java
+END
+Community.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/kartag/!svn/ver/42/head/server/KarTagServer/src/java/com/kartag/server/model/Community.java
+END
+Message.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/kartag/!svn/ver/19/head/server/KarTagServer/src/java/com/kartag/server/model/Message.java
+END
+Feedback.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/kartag/!svn/ver/19/head/server/KarTagServer/src/java/com/kartag/server/model/Feedback.java
+END
+Trip.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/kartag/!svn/ver/56/head/server/KarTagServer/src/java/com/kartag/server/model/Trip.java
+END
+TripPool.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/kartag/!svn/ver/19/head/server/KarTagServer/src/java/com/kartag/server/model/TripPool.java
+END
+UserRole.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/kartag/!svn/ver/19/head/server/KarTagServer/src/java/com/kartag/server/model/UserRole.java
+END
+UserUpdates.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/kartag/!svn/ver/33/head/server/KarTagServer/src/java/com/kartag/server/model/UserUpdates.java
+END
+Pool.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/kartag/!svn/ver/56/head/server/KarTagServer/src/java/com/kartag/server/model/Pool.java
+END
+SystemUser.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/kartag/!svn/ver/19/head/server/KarTagServer/src/java/com/kartag/server/model/SystemUser.java
+END
+UserChannel.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/kartag/!svn/ver/19/head/server/KarTagServer/src/java/com/kartag/server/model/UserChannel.java
+END
+Country.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/kartag/!svn/ver/31/head/server/KarTagServer/src/java/com/kartag/server/model/Country.java
+END
+Location.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/kartag/!svn/ver/33/head/server/KarTagServer/src/java/com/kartag/server/model/Location.java
+END
+Report.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/kartag/!svn/ver/47/head/server/KarTagServer/src/java/com/kartag/server/model/Report.java
+END
+Handset.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/kartag/!svn/ver/30/head/server/KarTagServer/src/java/com/kartag/server/model/Handset.java
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/kartag/!svn/ver/19/head/server/KarTagServer/src/java/com/kartag/business/processing
+END
+AbstractProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/kartag/!svn/ver/28/head/server/KarTagServer/src/java/com/kartag/business/processing/AbstractProcessor.java
+END
+FileOrderProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/kartag/!svn/ver/19/head/server/KarTagServer/src/java/com/kartag/business/processing/FileOrderProcessor.java
+END
+IProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/kartag/!svn/ver/19/head/server/KarTagServer/src/java/com/kartag/business/processing/IProcessor.java
+END
+ProcessorFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/kartag/!svn/ver/42/head/server/KarTagServer/src/java/com/kartag/business/processing/ProcessorFactory.java
+END
+SimpleOrderProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/kartag/!svn/ver/19/head/server/KarTagServer/src/java/com/kartag/business/processing/SimpleOrderProcessor.java
+END

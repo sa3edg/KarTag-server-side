@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/kartag/!svn/ver/19/head/server/KarTagServer/src/java/com/kartag/common/util
+END
+DateUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/kartag/!svn/ver/55/head/server/KarTagServer/src/java/com/kartag/common/util/DateUtil.java
+END
+FileUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/kartag/!svn/ver/25/head/server/KarTagServer/src/java/com/kartag/common/util/FileUtil.java
+END
+SimpleEntityResolver.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/kartag/!svn/ver/19/head/server/KarTagServer/src/java/com/kartag/common/util/SimpleEntityResolver.java
+END
+DAOUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/kartag/!svn/ver/19/head/server/KarTagServer/src/java/com/kartag/common/util/DAOUtil.java
+END
+StringUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/kartag/!svn/ver/38/head/server/KarTagServer/src/java/com/kartag/common/util/StringUtil.java
+END
+BeanUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/kartag/!svn/ver/33/head/server/KarTagServer/src/java/com/kartag/common/util/BeanUtil.java
+END

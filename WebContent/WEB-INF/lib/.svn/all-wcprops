@@ -1,0 +1,311 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/kartag/!svn/ver/19/head/server/KarTagServer/WebContent/WEB-INF/lib
+END
+struts-el-1.3.10.jar
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/kartag/!svn/ver/19/head/server/KarTagServer/WebContent/WEB-INF/lib/struts-el-1.3.10.jar
+END
+jasypt-1.9.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/kartag/!svn/ver/39/head/server/KarTagServer/WebContent/WEB-INF/lib/jasypt-1.9.1.jar
+END
+jackson-annotations-2.1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/kartag/!svn/ver/19/head/server/KarTagServer/WebContent/WEB-INF/lib/jackson-annotations-2.1.1.jar
+END
+commons-io-2.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/kartag/!svn/ver/19/head/server/KarTagServer/WebContent/WEB-INF/lib/commons-io-2.4.jar
+END
+struts-extras-1.3.10.jar
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/kartag/!svn/ver/19/head/server/KarTagServer/WebContent/WEB-INF/lib/struts-extras-1.3.10.jar
+END
+struts-scripting-1.3.10.jar
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/kartag/!svn/ver/19/head/server/KarTagServer/WebContent/WEB-INF/lib/struts-scripting-1.3.10.jar
+END
+commons-collections-3.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/kartag/!svn/ver/19/head/server/KarTagServer/WebContent/WEB-INF/lib/commons-collections-3.1.jar
+END
+commons-validator-1.3.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/kartag/!svn/ver/19/head/server/KarTagServer/WebContent/WEB-INF/lib/commons-validator-1.3.1.jar
+END
+struts-core-1.3.10.jar
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/kartag/!svn/ver/19/head/server/KarTagServer/WebContent/WEB-INF/lib/struts-core-1.3.10.jar
+END
+commons-dbcp-1.2.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/kartag/!svn/ver/19/head/server/KarTagServer/WebContent/WEB-INF/lib/commons-dbcp-1.2.2.jar
+END
+apache-log4j-extras-1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/kartag/!svn/ver/58/head/server/KarTagServer/WebContent/WEB-INF/lib/apache-log4j-extras-1.1.jar
+END
+commons-lang-2.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/kartag/!svn/ver/19/head/server/KarTagServer/WebContent/WEB-INF/lib/commons-lang-2.3.jar
+END
+hibernate3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/kartag/!svn/ver/19/head/server/KarTagServer/WebContent/WEB-INF/lib/hibernate3.jar
+END
+c3p0-0.9.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/kartag/!svn/ver/53/head/server/KarTagServer/WebContent/WEB-INF/lib/c3p0-0.9.1.jar
+END
+antlr-2.7.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/kartag/!svn/ver/19/head/server/KarTagServer/WebContent/WEB-INF/lib/antlr-2.7.6.jar
+END
+commons-digester-1.8.jar
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/kartag/!svn/ver/19/head/server/KarTagServer/WebContent/WEB-INF/lib/commons-digester-1.8.jar
+END
+hibernate-jpa-2.0-api-1.0.0.Final.jar
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/kartag/!svn/ver/19/head/server/KarTagServer/WebContent/WEB-INF/lib/hibernate-jpa-2.0-api-1.0.0.Final.jar
+END
+slf4j-api-1.6.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/kartag/!svn/ver/19/head/server/KarTagServer/WebContent/WEB-INF/lib/slf4j-api-1.6.6.jar
+END
+commons-email-1.3.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/kartag/!svn/ver/38/head/server/KarTagServer/WebContent/WEB-INF/lib/commons-email-1.3.2.jar
+END
+mail-1.4.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/kartag/!svn/ver/47/head/server/KarTagServer/WebContent/WEB-INF/lib/mail-1.4.1.jar
+END
+bcprov-ext-jdk15on-150.jar
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/kartag/!svn/ver/55/head/server/KarTagServer/WebContent/WEB-INF/lib/bcprov-ext-jdk15on-150.jar
+END
+slf4j-log4j12-1.6.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/kartag/!svn/ver/19/head/server/KarTagServer/WebContent/WEB-INF/lib/slf4j-log4j12-1.6.6.jar
+END
+commons-logging-1.0.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/kartag/!svn/ver/19/head/server/KarTagServer/WebContent/WEB-INF/lib/commons-logging-1.0.4.jar
+END
+dom4j-1.6.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/kartag/!svn/ver/19/head/server/KarTagServer/WebContent/WEB-INF/lib/dom4j-1.6.1.jar
+END
+slf4j-ext-1.6.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/kartag/!svn/ver/19/head/server/KarTagServer/WebContent/WEB-INF/lib/slf4j-ext-1.6.6.jar
+END
+commons-fileupload-1.1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/kartag/!svn/ver/19/head/server/KarTagServer/WebContent/WEB-INF/lib/commons-fileupload-1.1.1.jar
+END
+displaytag-portlet-1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/kartag/!svn/ver/19/head/server/KarTagServer/WebContent/WEB-INF/lib/displaytag-portlet-1.2.jar
+END
+javassist-3.9.0.GA.jar
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/kartag/!svn/ver/19/head/server/KarTagServer/WebContent/WEB-INF/lib/javassist-3.9.0.GA.jar
+END
+displaytag-export-poi-1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/kartag/!svn/ver/19/head/server/KarTagServer/WebContent/WEB-INF/lib/displaytag-export-poi-1.2.jar
+END
+hibernate-c3p0-3.3.1.GA.jar
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/kartag/!svn/ver/53/head/server/KarTagServer/WebContent/WEB-INF/lib/hibernate-c3p0-3.3.1.GA.jar
+END
+log4j-1.2.15.jar
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/kartag/!svn/ver/53/head/server/KarTagServer/WebContent/WEB-INF/lib/log4j-1.2.15.jar
+END
+mysql-connector-java-5.1.12-bin.jar
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/kartag/!svn/ver/19/head/server/KarTagServer/WebContent/WEB-INF/lib/mysql-connector-java-5.1.12-bin.jar
+END
+jaxen-1.1-beta-6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/kartag/!svn/ver/19/head/server/KarTagServer/WebContent/WEB-INF/lib/jaxen-1.1-beta-6.jar
+END
+struts-faces-1.3.10.jar
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/kartag/!svn/ver/19/head/server/KarTagServer/WebContent/WEB-INF/lib/struts-faces-1.3.10.jar
+END
+struts-mailreader-dao-1.3.10.jar
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/kartag/!svn/ver/19/head/server/KarTagServer/WebContent/WEB-INF/lib/struts-mailreader-dao-1.3.10.jar
+END
+jta-1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/kartag/!svn/ver/19/head/server/KarTagServer/WebContent/WEB-INF/lib/jta-1.1.jar
+END
+jasypt-hibernate3-1.9.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/kartag/!svn/ver/38/head/server/KarTagServer/WebContent/WEB-INF/lib/jasypt-hibernate3-1.9.0.jar
+END
+itext-1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/kartag/!svn/ver/21/head/server/KarTagServer/WebContent/WEB-INF/lib/itext-1.3.jar
+END
+displaytag-1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/kartag/!svn/ver/19/head/server/KarTagServer/WebContent/WEB-INF/lib/displaytag-1.2.jar
+END
+commons-configuration-1.9.jar
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/kartag/!svn/ver/25/head/server/KarTagServer/WebContent/WEB-INF/lib/commons-configuration-1.9.jar
+END
+activation-1.1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/kartag/!svn/ver/47/head/server/KarTagServer/WebContent/WEB-INF/lib/activation-1.1.1.jar
+END
+commons-chain-1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/kartag/!svn/ver/19/head/server/KarTagServer/WebContent/WEB-INF/lib/commons-chain-1.2.jar
+END
+jackson-core-2.1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/kartag/!svn/ver/19/head/server/KarTagServer/WebContent/WEB-INF/lib/jackson-core-2.1.1.jar
+END
+struts-tiles-1.3.10.jar
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/kartag/!svn/ver/19/head/server/KarTagServer/WebContent/WEB-INF/lib/struts-tiles-1.3.10.jar
+END
+JavaPNS_2.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/kartag/!svn/ver/27/head/server/KarTagServer/WebContent/WEB-INF/lib/JavaPNS_2.2.jar
+END
+jackson-databind-2.1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/kartag/!svn/ver/19/head/server/KarTagServer/WebContent/WEB-INF/lib/jackson-databind-2.1.1.jar
+END
+commons-beanutils-1.8.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/kartag/!svn/ver/19/head/server/KarTagServer/WebContent/WEB-INF/lib/commons-beanutils-1.8.3.jar
+END
+struts-taglib-1.3.10.jar
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/kartag/!svn/ver/19/head/server/KarTagServer/WebContent/WEB-INF/lib/struts-taglib-1.3.10.jar
+END
+json_simple-1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/kartag/!svn/ver/27/head/server/KarTagServer/WebContent/WEB-INF/lib/json_simple-1.1.jar
+END
+bcpkix-jdk15on-150.jar
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/kartag/!svn/ver/55/head/server/KarTagServer/WebContent/WEB-INF/lib/bcpkix-jdk15on-150.jar
+END
+apache-jakarta-oro.jar
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/kartag/!svn/ver/19/head/server/KarTagServer/WebContent/WEB-INF/lib/apache-jakarta-oro.jar
+END

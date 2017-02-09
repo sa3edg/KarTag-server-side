@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/kartag/!svn/ver/19/head/server/KarTagServer/src/sql
+END
+create_operational_tables_remote.sql
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/kartag/!svn/ver/19/head/server/KarTagServer/src/sql/create_operational_tables_remote.sql
+END
+create_db.sql
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/kartag/!svn/ver/19/head/server/KarTagServer/src/sql/create_db.sql
+END
+create_operational_tables.sql
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/kartag/!svn/ver/29/head/server/KarTagServer/src/sql/create_operational_tables.sql
+END
+migration_release2.0.sql
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/kartag/!svn/ver/42/head/server/KarTagServer/src/sql/migration_release2.0.sql
+END

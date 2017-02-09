@@ -1,0 +1,47 @@
+10
+
+dir
+19
+http://svn.almost-dev.com/kartag/head/server/KarTagServer/src/java/com/kartag/server
+http://svn.almost-dev.com/kartag
+
+
+
+2013-07-21T14:55:15.751865Z
+19
+sa3edg@gmail.com
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+2ba64594-34b1-43f8-9856-cad55457e908
+
+
+
+
+
+
+0
+
+dao
+dir
+
+model
+dir
+
+presentation
+dir
+
+reporting
+dir
+

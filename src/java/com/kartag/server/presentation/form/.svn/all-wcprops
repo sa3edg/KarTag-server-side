@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/kartag/!svn/ver/19/head/server/KarTagServer/src/java/com/kartag/server/presentation/form
+END
+PoolForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/kartag/!svn/ver/21/head/server/KarTagServer/src/java/com/kartag/server/presentation/form/PoolForm.java
+END
+UserForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/kartag/!svn/ver/19/head/server/KarTagServer/src/java/com/kartag/server/presentation/form/UserForm.java
+END
+NotificationForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/kartag/!svn/ver/33/head/server/KarTagServer/src/java/com/kartag/server/presentation/form/NotificationForm.java
+END
+SystemUserForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/kartag/!svn/ver/33/head/server/KarTagServer/src/java/com/kartag/server/presentation/form/SystemUserForm.java
+END
+CommunityForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/kartag/!svn/ver/36/head/server/KarTagServer/src/java/com/kartag/server/presentation/form/CommunityForm.java
+END
+CountryForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/kartag/!svn/ver/19/head/server/KarTagServer/src/java/com/kartag/server/presentation/form/CountryForm.java
+END
+ReportingForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/kartag/!svn/ver/25/head/server/KarTagServer/src/java/com/kartag/server/presentation/form/ReportingForm.java
+END

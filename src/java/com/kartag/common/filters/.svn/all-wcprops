@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/kartag/!svn/ver/19/head/server/KarTagServer/src/java/com/kartag/common/filters
+END
+SecurityCombo.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/kartag/!svn/ver/19/head/server/KarTagServer/src/java/com/kartag/common/filters/SecurityCombo.java
+END
+SecurityHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/kartag/!svn/ver/19/head/server/KarTagServer/src/java/com/kartag/common/filters/SecurityHelper.java
+END
+SecurityFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/kartag/!svn/ver/33/head/server/KarTagServer/src/java/com/kartag/common/filters/SecurityFilter.java
+END

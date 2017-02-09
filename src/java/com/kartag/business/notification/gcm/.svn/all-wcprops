@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/kartag/!svn/ver/27/head/server/KarTagServer/src/java/com/kartag/business/notification/gcm
+END
+Constants.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/kartag/!svn/ver/27/head/server/KarTagServer/src/java/com/kartag/business/notification/gcm/Constants.java
+END
+Result.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/kartag/!svn/ver/27/head/server/KarTagServer/src/java/com/kartag/business/notification/gcm/Result.java
+END
+InvalidRequestException.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/kartag/!svn/ver/27/head/server/KarTagServer/src/java/com/kartag/business/notification/gcm/InvalidRequestException.java
+END
+Message.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/kartag/!svn/ver/27/head/server/KarTagServer/src/java/com/kartag/business/notification/gcm/Message.java
+END
+MulticastResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/kartag/!svn/ver/27/head/server/KarTagServer/src/java/com/kartag/business/notification/gcm/MulticastResult.java
+END
+Sender.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/kartag/!svn/ver/55/head/server/KarTagServer/src/java/com/kartag/business/notification/gcm/Sender.java
+END

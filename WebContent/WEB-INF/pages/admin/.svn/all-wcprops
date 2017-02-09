@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/kartag/!svn/ver/24/head/server/KarTagServer/WebContent/WEB-INF/pages/admin
+END
+assignCountry.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/kartag/!svn/ver/24/head/server/KarTagServer/WebContent/WEB-INF/pages/admin/assignCountry.jsp
+END
+login.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/kartag/!svn/ver/49/head/server/KarTagServer/WebContent/WEB-INF/pages/admin/login.jsp
+END
+systemUsers.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/kartag/!svn/ver/24/head/server/KarTagServer/WebContent/WEB-INF/pages/admin/systemUsers.jsp
+END
+addUser.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/kartag/!svn/ver/24/head/server/KarTagServer/WebContent/WEB-INF/pages/admin/addUser.jsp
+END
+countries.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/kartag/!svn/ver/24/head/server/KarTagServer/WebContent/WEB-INF/pages/admin/countries.jsp
+END
+editUser.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/kartag/!svn/ver/24/head/server/KarTagServer/WebContent/WEB-INF/pages/admin/editUser.jsp
+END

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/kartag/!svn/ver/21/head/server/KarTagServer/WebContent/WEB-INF/pages/cp
+END
+pools.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/kartag/!svn/ver/49/head/server/KarTagServer/WebContent/WEB-INF/pages/cp/pools.jsp
+END
+communities.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/kartag/!svn/ver/49/head/server/KarTagServer/WebContent/WEB-INF/pages/cp/communities.jsp
+END
+addCommunity.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/kartag/!svn/ver/49/head/server/KarTagServer/WebContent/WEB-INF/pages/cp/addCommunity.jsp
+END
+editCountry.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/kartag/!svn/ver/49/head/server/KarTagServer/WebContent/WEB-INF/pages/cp/editCountry.jsp
+END
+addPool.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/kartag/!svn/ver/49/head/server/KarTagServer/WebContent/WEB-INF/pages/cp/addPool.jsp
+END
+editCommunity.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/kartag/!svn/ver/49/head/server/KarTagServer/WebContent/WEB-INF/pages/cp/editCommunity.jsp
+END
+countries.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/kartag/!svn/ver/49/head/server/KarTagServer/WebContent/WEB-INF/pages/cp/countries.jsp
+END
+addCountry.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/kartag/!svn/ver/49/head/server/KarTagServer/WebContent/WEB-INF/pages/cp/addCountry.jsp
+END
+editPool.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/kartag/!svn/ver/49/head/server/KarTagServer/WebContent/WEB-INF/pages/cp/editPool.jsp
+END

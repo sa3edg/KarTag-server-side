@@ -1,0 +1,324 @@
+package com.kartag.business.notification;
+
+import static com.kartag.common.config.Constants.NOTIFICATION_SERVICE_DELAY_IN_MINUTES;
+import static com.kartag.common.config.Constants.NOTIFICATION_SERVICE_INTERVAL_IN_MINUTES;
+import static com.kartag.common.config.Constants.GOOGLE_API_KEY;
+import static com.kartag.common.config.Constants.APPLE_PASSWORD;
+import static com.kartag.common.config.Constants.USE_APPLE_PRODUCTION_SERVERS;
+import static com.kartag.common.config.Constants.IS_PUSH_NOTIFICATION_ENABLED_FOR_ANDROID;
+import static com.kartag.common.config.Constants.IS_PUSH_NOTIFICATION_ENABLED_FOR_APPLE;
+import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.TimeUnit;
+
+import javapns.Push;
+
+import com.kartag.business.common.Request;
+import com.kartag.business.notification.gcm.Message;
+import com.kartag.business.notification.gcm.MulticastResult;
+import com.kartag.business.notification.gcm.Result;
+import com.kartag.business.notification.gcm.Sender;
+import com.kartag.business.util.PushNotificationUtils;
+import com.kartag.common.logging.LocalLogger;
+import com.kartag.common.model.IModel;
+import com.kartag.server.dao.UserDAO;
+import com.kartag.server.dao.UserUpdatesDAO;
+import com.kartag.server.model.User;
+
+public class NotificationService {
+
+	/**
+	 * class logger instance.
+	 */
+	private static LocalLogger logger = LocalLogger
+			.getLogger(NotificationService.class);
+	private static ScheduledExecutorService SERVICE_EXECUTOR = null;
+	private static NotificationService instance = null;
+	public static InputStream APPLE_STORE_KEY = null;
+
+	public static final String MESSAGE_KEY = "message";
+
+	public static NotificationService getInstance() throws Exception {
+		if (instance == null) {
+			instance = new NotificationService();
+			init();
+		}
+		return instance;
+	}
+
+	private static void init() throws Exception {
+		APPLE_STORE_KEY = NotificationService.class
+				.getResourceAsStream("/config/iphone_dev.p12");
+		logger.debug("000000009", APPLE_STORE_KEY);
+		//pushTest();
+	}
+
+	public void start() throws Exception {
+
+		SERVICE_EXECUTOR = Executors.newSingleThreadScheduledExecutor();
+		SERVICE_EXECUTOR
+				.scheduleAtFixedRate(new NotificationTask(),
+						NOTIFICATION_SERVICE_DELAY_IN_MINUTES * 60,
+						NOTIFICATION_SERVICE_INTERVAL_IN_MINUTES * 60,
+						TimeUnit.SECONDS);
+	}
+
+	public void notifyAllUsers() throws Exception {
+		Map<User, Set<Message>> notifications = getNotificationsMessages();
+		if (IS_PUSH_NOTIFICATION_ENABLED_FOR_ANDROID) {
+			notifyAndroidUsers(notifications);
+		}
+		if (IS_PUSH_NOTIFICATION_ENABLED_FOR_APPLE) {
+			notifyAppleUsers(notifications);
+		}
+	}
+
+	public void notifyAllUsers(String message, boolean notifyAndroidUsers,
+			boolean notifyAppleUsers) throws Exception {
+		if (notifyAndroidUsers) {
+			notifyAndroidUsers(message);
+		}
+		if (notifyAppleUsers) {
+			notifyAppleUsers(message);
+		}
+	}
+
+	public void notifyAllUsers(int countryId, String message,
+			boolean notifyAndroidUsers, boolean notifyAppleUsers)
+			throws Exception {
+		if (notifyAndroidUsers) {
+			notifyAndroidUsers(countryId, message);
+		}
+		if (notifyAppleUsers) {
+			notifyAppleUsers(countryId, message);
+		}
+	}
+
+	private void notifyAndroidUsers(Map<User, Set<Message>> notifications) {
+
+		try {
+			Sender sender = new Sender(GOOGLE_API_KEY);
+			for (final User user : notifications.keySet()) {
+				Set<Message> messages = notifications.get(user);
+				// use this line to send message with payload data
+				for (final Message message : messages) {
+					if (Request.SOURCE_DEVICE_ANDROID.equals(user.getSource())
+							&& !"".equals(user.getDeviceId())) {
+						Result result = sender.sendNoRetry(message,
+								user.getDeviceId());
+						if (result == null) {
+							// log fail
+							logger.info("000000004");
+						}
+					}
+				}
+			}
+		} catch (Exception ex) {
+			// log exception
+			logger.error("000000003", ex.getMessage(), ex);
+		}
+	}
+
+	private void notifyAndroidUsers(String messageText) throws Exception {
+		List<String> userRegIdGcmList = getRegesteredAndroidIds();
+		try {
+			Sender sender = new Sender(GOOGLE_API_KEY);
+			// use this line to send message with payload data
+			Message message = new Message.Builder().collapseKey("1")
+					.timeToLive(3).delayWhileIdle(true)
+					.addData(MESSAGE_KEY, messageText).build();
+			MulticastResult result = sender.sendNoRetry(message,
+					userRegIdGcmList);
+			if (result.getResults() == null) {
+				// log fail
+				logger.info("000000004");
+			}
+
+		} catch (Exception ex) {
+			// log exception
+			logger.error("000000003", ex.getMessage(), ex);
+		}
+	}
+
+	private void notifyAndroidUsers(int countryId, String messageText)
+			throws Exception {
+		List<String> userRegIdGcmList = getRegesteredAndroidIds(countryId);
+		try {
+			Sender sender = new Sender(GOOGLE_API_KEY);
+			// use this line to send message with payload data
+			Message message = new Message.Builder().collapseKey("1")
+					.timeToLive(3).delayWhileIdle(true)
+					.addData(MESSAGE_KEY, messageText).build();
+			MulticastResult result = sender.sendNoRetry(message,
+					userRegIdGcmList);
+			if (result.getResults() == null) {
+				// log fail
+				logger.info("000000004");
+			}
+
+		} catch (Exception ex) {
+			// log exception
+			logger.error("000000003", ex.getMessage(), ex);
+		}
+	}
+
+	public void notifyUser(IModel model, User user) {
+		try {
+			Message message = PushNotificationUtils
+					.createMessagePushNotification(model);
+			if (IS_PUSH_NOTIFICATION_ENABLED_FOR_APPLE && message != null
+					&& Request.SOURCE_DEVICE_IPHONE.equals(user.getSource())
+					&& user.getDeviceId() != null
+					&& !"".equals(user.getDeviceId())) {
+				sendAppleNotification(message, user);
+
+			} else if (IS_PUSH_NOTIFICATION_ENABLED_FOR_ANDROID
+					&& message != null
+					&& Request.SOURCE_DEVICE_ANDROID.equals(user.getSource())
+					&& user.getDeviceId() != null
+					&& !"".equals(user.getDeviceId())) {
+				sendGCMNotification(message, user);
+			}
+		} catch (Exception ex) {
+			logger.error("000000003", ex.getMessage(), ex);
+		}
+
+	}
+
+	private void sendAppleNotification(Message message, User user)
+			throws Exception {
+		APPLE_STORE_KEY = NotificationService.class
+				.getResourceAsStream("/config/iphone_dev.p12");
+		logger.debug("000000009", APPLE_STORE_KEY);
+		Push.alert(message.getData().get(MESSAGE_KEY), APPLE_STORE_KEY,
+				APPLE_PASSWORD, USE_APPLE_PRODUCTION_SERVERS,
+				user.getDeviceId());
+	}
+
+	private static void pushTest() throws Exception {
+
+		try {
+			Push.alert("Hello Khaled", APPLE_STORE_KEY, APPLE_PASSWORD,
+					USE_APPLE_PRODUCTION_SERVERS,
+					"20c7af2f9bfa25e2d7b52e8ebde81b6864bf5ec23c7811d2ff15f749f3900d4d");
+		} catch (Exception ex) {
+			logger.error("000000003", ex.getMessage(), ex);
+		}
+	}
+
+	private void sendGCMNotification(Message message, User user)
+			throws Exception {
+
+		Sender sender = new Sender(GOOGLE_API_KEY);
+		Result result = sender.sendNoRetry(message, user.getDeviceId());
+		if (result == null) {
+			// log fail
+			logger.info("000000004");
+		}
+	}
+
+	private void notifyAppleUsers(Map<User, Set<Message>> notifications) {
+
+		try {
+			for (final User user : notifications.keySet()) {
+				Set<Message> messages = notifications.get(user);
+				// use this line to send message with payload data
+				for (final Message message : messages) {
+					if (Request.SOURCE_DEVICE_IPHONE.equals(user.getSource())
+							&& !"".equals(user.getDeviceId())) {
+						Push.alert(message.getData().get(MESSAGE_KEY),
+								APPLE_STORE_KEY, APPLE_PASSWORD,
+								USE_APPLE_PRODUCTION_SERVERS,
+								user.getDeviceId());
+					}
+				}
+			}
+		} catch (Exception ex) {
+			// log exception
+			logger.error("000000003", ex.getMessage(), ex);
+		}
+	}
+
+	private void notifyAppleUsers(String messageText) throws Exception {
+		List<String> userRegIdAppleList = getRegesteredAppleIds();
+		try {
+			Push.alert(messageText, APPLE_STORE_KEY, APPLE_PASSWORD,
+					USE_APPLE_PRODUCTION_SERVERS, userRegIdAppleList);
+		} catch (Exception ex) {
+			// log exception
+			logger.error("000000003", ex.getMessage(), ex);
+		}
+	}
+
+	private void notifyAppleUsers(int countryId, String messageText)
+			throws Exception {
+		List<String> userRegIdAppleList = getRegesteredAppleIds(countryId);
+		try {
+			Push.alert(messageText, APPLE_STORE_KEY, APPLE_PASSWORD,
+					USE_APPLE_PRODUCTION_SERVERS, userRegIdAppleList);
+		} catch (Exception ex) {
+			// log exception
+			logger.error("000000003", ex.getMessage(), ex);
+		}
+	}
+
+	private List<String> getRegesteredAndroidIds() throws Exception {
+		List<String> ids = new ArrayList<String>();
+		Set<User> users = new UserDAO()
+				.getRegisteredUsers(Request.SOURCE_DEVICE_ANDROID);
+		for (final User user : users) {
+			ids.add(user.getDeviceId());
+		}
+		return ids;
+	}
+
+	private List<String> getRegesteredAppleIds() throws Exception {
+		List<String> ids = new ArrayList<String>();
+		Set<User> users = new UserDAO()
+				.getRegisteredUsers(Request.SOURCE_DEVICE_IPHONE);
+		for (final User user : users) {
+			ids.add(user.getDeviceId());
+		}
+		return ids;
+	}
+
+	private List<String> getRegesteredAndroidIds(int countryId)
+			throws Exception {
+		List<String> ids = new ArrayList<String>();
+		Set<User> users = new UserDAO()
+				.getRegisteredUsers(Request.SOURCE_DEVICE_ANDROID);
+		for (final User user : users) {
+			if (user.getCountryId() == countryId) {
+				ids.add(user.getDeviceId());
+			}
+		}
+		return ids;
+	}
+
+	private List<String> getRegesteredAppleIds(int countryId) throws Exception {
+		List<String> ids = new ArrayList<String>();
+		Set<User> users = new UserDAO()
+				.getRegisteredUsers(Request.SOURCE_DEVICE_IPHONE);
+		for (final User user : users) {
+			if (user.getCountryId() == countryId) {
+				ids.add(user.getDeviceId());
+			}
+		}
+		return ids;
+	}
+
+	private Map<User, Set<Message>> getNotificationsMessages() throws Exception {
+		Map<User, Set<Message>> messages = new UserUpdatesDAO()
+				.getPushNotifications();
+		return messages;
+	}
+
+	public void shutdown() {
+		SERVICE_EXECUTOR.shutdown();
+	}
+}

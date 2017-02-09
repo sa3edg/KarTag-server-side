@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/kartag/!svn/ver/19/head/server/KarTagServer/src/java/config
+END
+hibernate.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/kartag/!svn/ver/55/head/server/KarTagServer/src/java/config/hibernate.cfg.xml
+END
+iphone_pro.p12
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/kartag/!svn/ver/53/head/server/KarTagServer/src/java/config/iphone_pro.p12
+END
+hibernate-configuration-3.0.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/kartag/!svn/ver/19/head/server/KarTagServer/src/java/config/hibernate-configuration-3.0.dtd
+END
+ApplicationProperties.properties
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/kartag/!svn/ver/53/head/server/KarTagServer/src/java/config/ApplicationProperties.properties
+END
+iphone_dev.p12
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/kartag/!svn/ver/53/head/server/KarTagServer/src/java/config/iphone_dev.p12
+END

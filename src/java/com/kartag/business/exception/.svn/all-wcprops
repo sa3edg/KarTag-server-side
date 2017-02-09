@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/kartag/!svn/ver/19/head/server/KarTagServer/src/java/com/kartag/business/exception
+END
+BadProcessingException.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/kartag/!svn/ver/47/head/server/KarTagServer/src/java/com/kartag/business/exception/BadProcessingException.java
+END
+ValidationException.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/kartag/!svn/ver/47/head/server/KarTagServer/src/java/com/kartag/business/exception/ValidationException.java
+END
+NotAuthenticatedException.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/kartag/!svn/ver/47/head/server/KarTagServer/src/java/com/kartag/business/exception/NotAuthenticatedException.java
+END

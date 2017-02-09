@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/kartag/!svn/ver/19/head/server/KarTagServer/src/java/com/kartag/server/presentation/action
+END
+ReportingActions.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/kartag/!svn/ver/49/head/server/KarTagServer/src/java/com/kartag/server/presentation/action/ReportingActions.java
+END
+CountryActions.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/kartag/!svn/ver/34/head/server/KarTagServer/src/java/com/kartag/server/presentation/action/CountryActions.java
+END
+PoolsActions.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/kartag/!svn/ver/33/head/server/KarTagServer/src/java/com/kartag/server/presentation/action/PoolsActions.java
+END
+CommunitiesActions.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/kartag/!svn/ver/36/head/server/KarTagServer/src/java/com/kartag/server/presentation/action/CommunitiesActions.java
+END
+SystemUserActions.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/kartag/!svn/ver/33/head/server/KarTagServer/src/java/com/kartag/server/presentation/action/SystemUserActions.java
+END
+UserActions.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/kartag/!svn/ver/33/head/server/KarTagServer/src/java/com/kartag/server/presentation/action/UserActions.java
+END
+NotificationActions.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/kartag/!svn/ver/36/head/server/KarTagServer/src/java/com/kartag/server/presentation/action/NotificationActions.java
+END

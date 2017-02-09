@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/kartag/!svn/ver/19/head/server/KarTagServer/src/java/com/kartag/business/common
+END
+Request.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/kartag/!svn/ver/25/head/server/KarTagServer/src/java/com/kartag/business/common/Request.java
+END
+OrderTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/kartag/!svn/ver/42/head/server/KarTagServer/src/java/com/kartag/business/common/OrderTypes.java
+END
+IResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/kartag/!svn/ver/31/head/server/KarTagServer/src/java/com/kartag/business/common/IResponse.java
+END
+RequestParameters.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/kartag/!svn/ver/19/head/server/KarTagServer/src/java/com/kartag/business/common/RequestParameters.java
+END
+IRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/kartag/!svn/ver/28/head/server/KarTagServer/src/java/com/kartag/business/common/IRequest.java
+END
+Response.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/kartag/!svn/ver/25/head/server/KarTagServer/src/java/com/kartag/business/common/Response.java
+END
