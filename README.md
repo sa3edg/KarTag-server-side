@@ -1,5 +1,5 @@
 # KarTag-server-side
-e server side of KarTag startup.
+The server side of KarTag startup.
 
 KarTag is a reliable, trustworthy and social carpooling mobile app . We believe that everyone should have access to affordable and reliable transport, and that being on the road can still be cheap, green and fun. KarTag helps reduce heavy levels of environmental pollution, traffic and parking problems while encouraging hanging out with old and meeting new friends.
 
